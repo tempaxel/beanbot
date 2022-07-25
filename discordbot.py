@@ -45,9 +45,9 @@ async def on_message(message):
 	if message.content.startswith('!8ball'):
 		eightBall = random.randint(0, 1)
 		if eightBall == 0:
-			eightBallResult = "You're gay."
+			eightBallResult = "You're cool."
 		else:
-			eightBallResult = "You're not gay."	
+			eightBallResult = "You're not cool."	
 		await message.channel.send(eightBallResult)
 		
 # importing discord bot token
